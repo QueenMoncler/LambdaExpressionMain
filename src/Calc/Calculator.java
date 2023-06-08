@@ -12,7 +12,7 @@ public class Calculator {
     {
         if(y == 0) {
             System.out.println("Некорректное действие ");
-            return 0;}
+            return Integer.MIN_VALUE;}
         else  return x / y;
     };
 
